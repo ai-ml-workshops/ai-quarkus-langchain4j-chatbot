@@ -1,4 +1,4 @@
-# Quarkus LangChain4j AI Chatbot
+# Quarkus LangChain4j Generative AI Chatbot
 
 This AI chatbot application is built on the [Quarkus LangChain4j](https://docs.quarkiverse.io/quarkus-langchain4j/dev/index.html) extension to interact with OpenAI's GPT-4o model.
 
