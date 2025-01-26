@@ -192,6 +192,6 @@ The **@SessionScoped** annotation, a core component of [CDI (Contexts and Depend
 
 Stop the Quarkus dev mode by pressing **Ctrl + C**. 
 
-Great success! You have successfully implemented a chatbot using Quarkus and LangChain4j.
+**Great success!** You have successfully implemented a chatbot using Quarkus and LangChain4j.
 
-If you have any questions or need further assistance, please don't hesitate to reach out. Let's continue to build great applications with Quarkus and LangChain4j!
+If you have any questions or need further assistance, please don't hesitate to reach out to [Quarkus community](https://quarkus.io/support/). Let's continue to build great applications with Quarkus and LangChain4j!
