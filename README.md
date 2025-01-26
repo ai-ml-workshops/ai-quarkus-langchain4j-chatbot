@@ -187,3 +187,11 @@ The **@RegisterAiService** annotation designates this interface as an AI service
 The interface declares a single method, **chat**, which serves as the entry point for user interactions. While you have the flexibility to choose a different method name, chat is conventionally used. This method accepts a user message as its sole input parameter. Upon receiving this input, it processes the message and returns the generated response from the AI model. The intricacies of this interaction, including how the message is sent to the AI model and the response is received, are effectively abstracted by the Quarkus LangChain4j extension.
 
 The **@SessionScoped** annotation, a core component of [CDI (Contexts and Dependency Injection)](https://jakarta.ee/specifications/cdi/), defines the scope of the **CustomerSupportAgent** object to the current WebSocket session. In essence, this annotation ensures that a new instance of the CustomerSupportAgent is created for each user connecting to the WebSocket and is automatically destroyed when the user disconnects. This session-scoped behavior directly influences the chatbot's **memory**, allowing it to effectively maintain a record of the conversation history within the context of that specific user session.
+
+## 4. Conclusion
+
+Stop the Quarkus dev mode by pressing **Ctrl + C**. 
+
+Great success! You have successfully implemented a chatbot using Quarkus and LangChain4j.
+
+If you have any questions or need further assistance, please don't hesitate to reach out. Let's continue to build great applications with Quarkus and LangChain4j!
