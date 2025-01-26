@@ -4,7 +4,11 @@ This AI chatbot application is built on the [Quarkus LangChain4j](https://docs.q
 
 ## 1. Running the Quarkus LangChain4j AI Chatbot application locally
 
-Note that you need to install set the environment variable `OPENAI_API_KEY` with your OpenAI API key.
+Note that you need to set the environment variable `OPENAI_API_KEY` with your OpenAI API key.
+
+```shell
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+```
 
 Run the application with the following command:
 
